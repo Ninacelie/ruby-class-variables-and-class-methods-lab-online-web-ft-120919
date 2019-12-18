@@ -12,6 +12,12 @@ class Song
     @@artists
   end
 
+  @@genres = []
+
+  def self.genres
+    @@genres
+  end
+
 
   attr_accessor :name, :artist, :genre
 
