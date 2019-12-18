@@ -9,7 +9,7 @@ class Song
   @@artists = []
 
   def self.artists_count
-    
+
 
   attr_accessor :name, :artist, :genre
 
